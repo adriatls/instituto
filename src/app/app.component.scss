@@ -1,0 +1,13 @@
+:host ::ng-deep {
+  .p-menubar-end {
+    display: none;
+  }
+  .p-menubar {
+    justify-content: space-between;
+  }
+
+  .p-menubar-mobile .p-menubar-button {
+    position: absolute;
+    right: 10px;
+  }
+}
