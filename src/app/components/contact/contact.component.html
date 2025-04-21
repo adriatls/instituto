@@ -1,1 +1,44 @@
-<p>contact works!</p>
+<div class="flex">
+    <div>
+        <div class="flex align-items-center gap-2 mb-3">
+            <i class="pi pi-envelope" style="font-size: 2rem"></i>
+            <div>
+                <h3>Presidente</h3>
+                <p>{{"profsergioricardos@gmail.com"}}</p>
+            </div>
+        </div>
+        <div class="flex align-items-center gap-2 mb-3">
+            <i class="pi pi-whatsapp" style="font-size: 2rem"></i>
+            <div>
+                <h3>Instituto Pescador Abdon Gomes da Silva</h3>
+                <p>{{"+55 (85) 98183-4500"}}</p>
+            </div>
+        </div>
+    </div>
+    <form [formGroup]="contactForm">
+        <p-floatlabel>
+          <input id="name" pInputText formControlName="name" required />
+          <label for="name">Nome</label>
+        </p-floatlabel>
+      
+        <p-floatlabel>
+          <input id="email" pInputText formControlName="email" required />
+          <label for="email">Email</label>
+        </p-floatlabel>
+      
+        <!-- <p-floatlabel variant="on">
+          <textarea
+            pTextarea
+            id="message"
+            formControlName="message"
+            rows="5"
+            cols="30"
+            style="resize: none"
+          ></textarea>
+          <label for="message">Mensagem</label>
+        </p-floatlabel> -->
+      
+        <p-button label="Enviar" />
+      </form>
+</div>
+
