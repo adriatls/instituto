@@ -1,0 +1,12 @@
+<p-carousel
+  [value]="partnerImages"
+  [numVisible]="3"
+  [numScroll]="1"
+  [responsiveOptions]="responsiveOptions"
+>
+  <ng-template let-partner #item>
+    <div class="border border-surface-200 dark:border-surface-700 rounded m-2 p-4">
+        <img [src]="partner.src" [alt]="partner.alt"/>
+    </div>
+  </ng-template>
+</p-carousel>
