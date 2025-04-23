@@ -50,7 +50,12 @@ export class PartnerComponent {
     },
     {
       src: '../../../assets/sindicato.jpeg',
-      alt: 'Logo do Sindicato dos Pescadores, Marisqueiras e Trabalhadores da Pesca Artesanal do Município de Beberibe ',
+      alt: 'Logo do Sindicato dos Pescadores, Marisqueiras e Trabalhadores da Pesca Artesanal do Município de Beberibe',
+      style: '',
+    },
+    {
+      src: '../../../assets/ibesf.png',
+      alt: 'Logo do Instituto Brasil Sem Fronteiras',
       style: '',
     },
     {
