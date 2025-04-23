@@ -49,6 +49,11 @@ export class PartnerComponent {
       style: '',
     },
     {
+      src: '../../../assets/sindicato.jpeg',
+      alt: 'Logo do Sindicato dos Pescadores, Marisqueiras e Trabalhadores da Pesca Artesanal do Município de Beberibe ',
+      style: '',
+    },
+    {
       src: '../../../assets/fasec.webp',
       alt: 'Logo da Faculdade do Sertão Central',
       style: '',
@@ -62,6 +67,6 @@ export class PartnerComponent {
       src: '../../../assets/unifatecie-beberibe.jpeg',
       alt: 'Logo da Unifatecie Polo EAD Beberibe',
       style: '',
-    }
-  ]
+    },
+  ];
 }
