@@ -7,6 +7,8 @@ import { InputTextModule } from 'primeng/inputtext';
 import { FloatLabelModule } from 'primeng/floatlabel';
 import { send as emailjsSend } from '@emailjs/browser';
 import { environment } from '../../../environments/environment';
+import { MessageService } from 'primeng/api';
+import { ToastModule } from 'primeng/toast';
 
 @Component({
   selector: 'app-contact',
@@ -16,13 +18,18 @@ import { environment } from '../../../environments/environment';
     ButtonModule,
     InputTextModule,
     FloatLabelModule,
+    ToastModule,
   ],
+  providers: [MessageService],
   templateUrl: './contact.component.html',
   styleUrl: './contact.component.scss',
 })
 export class ContactComponent implements OnInit {
   protected contactForm: ContactFormGroup | undefined;
   protected lodingSentMessage: boolean = false;
+
+  public constructor(private readonly messageService: MessageService) {}
+
   public ngOnInit() {
     this.contactForm = initializeContactForm();
   }
@@ -34,20 +41,42 @@ export class ContactComponent implements OnInit {
       email: this.contactForm?.controls.email.value,
       message: this.contactForm?.controls.message.value,
     };
-    console.log(contact);
 
-    emailjsSend(environment.emailJs.serviceId, environment.emailJs.templateId, contact, {
-      publicKey: environment.emailJs.publicKey,
-    }).then(
+    emailjsSend(
+      environment.emailJs.serviceId,
+      environment.emailJs.templateId,
+      contact,
+      {
+        publicKey: environment.emailJs.publicKey,
+      }
+    ).then(
       () => {
-        console.log('Sent!');
+        this.showMessageSuccess();
         this.lodingSentMessage = false;
         this.contactForm?.reset();
       },
-      (err) => {
-        console.log(JSON.stringify(err));
-        this.lodingSentMessage = false;
+      () => {
+        this.showMessageError();
       }
     );
+  }
+
+  private showMessageSuccess() {
+    this.messageService.add({
+      severity: 'success',
+      summary: 'Sucesso',
+      detail: 'Mensagem enviada!',
+      life: 3000,
+    });
+  }
+
+  private showMessageError() {
+    this.messageService.add({
+      severity: 'warn',
+      summary: 'Erro',
+      detail:
+        'Não foi possível enviar sua mensagem! Por favor, tente mais tarde.',
+      life: 3000,
+    });
   }
 }

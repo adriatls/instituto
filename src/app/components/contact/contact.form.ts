@@ -22,7 +22,7 @@ export type ContactFormGroup = TypedFormGroup<IContact>;
 export const initializeContactForm = (): ContactFormGroup => {
   return new FormGroup({
     name: new FormControl<string>('', {
-      validators: [nonEmptyString(), Validators.required],
+      validators: [nonEmptyString(), Validators.required, Validators.minLength(3)],
       nonNullable: true,
     }),
     email: new FormControl<string>('', {
@@ -30,7 +30,7 @@ export const initializeContactForm = (): ContactFormGroup => {
       nonNullable: true,
     }),
     message: new FormControl<string>('', {
-      validators: [nonEmptyString(), Validators.required],
+      validators: [nonEmptyString(), Validators.required, Validators.minLength(50)],
       nonNullable: true,
     }),
   });
