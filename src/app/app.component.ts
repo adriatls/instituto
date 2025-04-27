@@ -5,6 +5,7 @@ import { ContactComponent } from './components/contact/contact.component';
 import { AboutComponent } from './components/about/about.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { PartnerComponent } from './components/partner/partner.component';
+import { DonateComponent } from './components/donate/donate.component';
 
 @Component({
   selector: 'app-root',
@@ -16,6 +17,7 @@ import { PartnerComponent } from './components/partner/partner.component';
     AboutComponent,
     FooterComponent,
     PartnerComponent,
+    DonateComponent,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',

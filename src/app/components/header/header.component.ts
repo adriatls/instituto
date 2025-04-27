@@ -24,6 +24,9 @@ ngOnInit() {
         label: 'Como doar',
       },
       {
+        label: 'Transparência',
+      },
+      {
         label: 'Parceiros',
       },
       {
