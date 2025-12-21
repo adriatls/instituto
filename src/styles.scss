@@ -8,3 +8,42 @@
 p {
   font-size: 18px;
 }
+
+.highlight {
+  position: relative;
+  display: inline;
+  padding: 0.15em 0.3em;
+  border-radius: 0.2em;
+
+  /* Texto já começa em negrito */
+  color: inherit;
+  font-weight: 700;
+
+  /* Fundo começa invisível */
+  background: linear-gradient(
+    to right,
+    rgba(186, 230, 253, 1), /* sky-200 */
+    rgba(224, 242, 254, 1)
+  );
+  background-size: 0% 100%;
+  background-repeat: no-repeat;
+
+  animation: highlightText 2.2s ease-out forwards;
+}
+
+@keyframes highlightText {
+  0% {
+    background-size: 0% 100%;
+    color: inherit;
+  }
+
+  70% {
+    background-size: 100% 100%;
+    color: inherit;
+  }
+
+  100% {
+    background-size: 100% 100%;
+    color: #075985; /* sky-700 */
+  }
+}
