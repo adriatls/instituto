@@ -17,13 +17,13 @@
     </p>
 
     <div class="flex flex-col gap-4 grow self-center">
-      <div class="flex gap-4 flex-wrap">
-        <p>O Instituto</p>
-        <p>Ações</p>
-        <p>Eventos</p>
-        <p>Como Doar</p>
-        <p>Parceiros</p>
-        <p>Contato</p>
+      <div class="flex gap-3 flex-wrap">
+        <p-button variant="text" label="O Instituto" (onClick)="scrollTo('instituto')" />
+        <p-button variant="text" label="Ações" (onClick)="scrollTo('acoes')" />
+        <p-button variant="text" label="Eventos" (onClick)="scrollTo('eventos')" />
+        <p-button variant="text" label="Como Doar" (onClick)="scrollTo('doar')" />
+        <p-button variant="text" label="Parceiros" (onClick)="scrollTo('parceiros')" />
+        <p-button variant="text" label="Contato" (onClick)="scrollTo('contato')" />
       </div>
       <p-divider />
       <h3 class="text-center md:text-left">Confira:</h3>

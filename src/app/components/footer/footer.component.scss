@@ -1,3 +1,12 @@
 .p-small {
     font-size: 16px;
 }
+
+:host ::ng-deep {
+  .p-button {
+    color: white;
+  }
+  .p-button:hover {
+    color: var(--dark-blue);
+  }
+}
