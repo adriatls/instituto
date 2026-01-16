@@ -19,13 +19,8 @@ export class HeaderComponent {
         style: { fontSize: '1.50rem' },
       },
       {
-        label: 'Ações',
+        label: 'Ações e Eventos',
         command: () => this.scrollTo('acoes'),
-        style: { fontSize: '1.50rem' },
-      },
-      {
-        label: 'Eventos',
-        command: () => this.scrollTo('eventos'),
         style: { fontSize: '1.50rem' },
       },
       {
