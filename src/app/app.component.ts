@@ -7,6 +7,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { PartnerComponent } from './components/partner/partner.component';
 import { DonateComponent } from './components/donate/donate.component';
 import { TransparencyComponent } from './components/transparency/transparency.component';
+import { ActionsEventsComponent } from './components/actions-events/actions-events.component';
 
 @Component({
   selector: 'app-root',
@@ -20,6 +21,7 @@ import { TransparencyComponent } from './components/transparency/transparency.co
     PartnerComponent,
     DonateComponent,
     TransparencyComponent,
+    ActionsEventsComponent,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
