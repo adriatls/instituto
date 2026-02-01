@@ -1,7 +1,7 @@
 <p-card [style]="{ width: '25rem', overflow: 'hidden', padding: '20px' }">
   <ng-template #header>
     <p-galleria
-      [value]="images()"
+      [value]="galleriaInfo().images"
       [showIndicators]="true"
       [showThumbnails]="false"
       [changeItemOnIndicatorHover]="true"
@@ -22,11 +22,7 @@
       </ng-template>
     </p-galleria>
   </ng-template>
-  <ng-template #title>6° Open Brasil de Surfcasting Pesque e Solte</ng-template>
-  <ng-template #subtitle> 29/08/2025 </ng-template>
-  <p>
-    Inventore sed consequuntur error repudiandae numquam deserunt quisquam
-    repellat libero asperiores earum nam nobis, culpa ratione quam perferendis
-    esse, cupiditate neque quas!
-  </p>
+  <ng-template #title>{{ galleriaInfo().title }}</ng-template>
+  <ng-template #subtitle>{{ galleriaInfo().date }}</ng-template>
+  <p>{{ galleriaInfo().description }}</p>
 </p-card>

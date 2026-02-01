@@ -8,6 +8,13 @@ export interface IImage {
   alt: string;
 }
 
+export interface IGalleria {
+  title: string;
+  date: string;
+  description: string;
+  images: IImage[];
+}
+
 @Component({
   selector: 'app-galleria',
   imports: [CardModule, GalleriaModule, ImageModule],
@@ -15,5 +22,5 @@ export interface IImage {
   styleUrl: './galleria.component.scss',
 })
 export class GalleriaComponent {
-  public images = input.required<IImage[]>();
+  public galleriaInfo = input.required<IGalleria>();
 }
