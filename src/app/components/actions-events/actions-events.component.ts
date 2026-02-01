@@ -11,7 +11,7 @@ export class ActionsEventsComponent {
   protected torneioMassarandubaEvent: IGalleria = {
     title: 'Torneio Assentamento Massaranduba',
     date: '13/11/2023, Beberibe-CE',
-    description: 'Inventore sed consequuntur error repudiandae numquam deserunt quisquam repellat libero asperiores earum nam nobis, culpa ratione quam perferendis esse, cupiditate neque quas!',
+    description: 'Realizamos o Torneio de Fut7 e de Futmesa no assentamento da Serra do Félix afim de promover lazer, esporte e inclusão social na comunidade.',
     images: [
       {
         src: '../../../assets/torneio-massaranduba/1.png',
@@ -42,7 +42,7 @@ export class ActionsEventsComponent {
   protected encontroAmigosEvent: IGalleria = {
     title: '1° Encontro dos Amigos',
     date: '31/03/2024, Beberibe-CE',
-    description: 'Inventore sed consequuntur error repudiandae numquam deserunt quisquam repellat libero asperiores earum nam nobis, culpa ratione quam perferendis esse, cupiditate neque quas!',
+    description: 'Realizamos a Competição de Embarcações de 5m na Praia de Morro Branco, uma corrida de jangada, festejando a tradição náutica local com a comunidade.',
     images: [
       {
         src: '../../../assets/encontro-amigos/1.png',
@@ -65,7 +65,7 @@ export class ActionsEventsComponent {
   protected arraiaMariaClaraEvent: IGalleria = {
     title: 'Arraiá da Maria Clara',
     date: '06/07/2024, Cascavel-CE',
-    description: 'Inventore sed consequuntur error repudiandae numquam deserunt quisquam repellat libero asperiores earum nam nobis, culpa ratione quam perferendis esse, cupiditate neque quas!',
+    description: 'Realizamos um Festival Junino na Associação Comunitária do Coqueiro com sorteio de cestas básicas e eletrodomésticos, além de celebrar a cultura nordestina.',
     images: [
       {
         src: '../../../assets/arraia-maria-clara/1.png',
@@ -88,7 +88,7 @@ export class ActionsEventsComponent {
   protected mesaSescEvent: IGalleria = {
     title: 'Mesa SESC Brasil',
     date: '04/2025, Beberibe-CE',
-    description: 'Inventore sed consequuntur error repudiandae numquam deserunt quisquam repellat libero asperiores earum nam nobis, culpa ratione quam perferendis esse, cupiditate neque quas!',
+    description: 'Inventore sed consequuntur error repudiandae numquam deserunt quisquam repellat libero asperiores earum nam nobis, culpa ratione quam perferendis quas!',
     images: [
       {
         src: '../../../assets/mesa-sesc/1.jpeg',
@@ -101,9 +101,9 @@ export class ActionsEventsComponent {
     ]
   };
   protected surfcastingEvent: IGalleria = {
-    title: '6° Open Brasil de Surfcasting Pesque e Solte',
+    title: '6° Open de Surfcasting Pesque e Solte',
     date: '29/08/2025, Beberibe-CE',
-    description: 'Inventore sed consequuntur error repudiandae numquam deserunt quisquam repellat libero asperiores earum nam nobis, culpa ratione quam perferendis esse, cupiditate neque quas!',
+    description: 'Inventore sed consequuntur error repudiandae numquam deserunt quisquam repellat libero asperiores earum nam nobis quas!',
     images: [
       {
         src: '../../../assets/surfcasting/1.jpeg',
@@ -122,7 +122,7 @@ export class ActionsEventsComponent {
   protected cursoAquaviarioEvent: IGalleria = {
     title: 'Curso de Aquaviário',
     date: '09/2025, Beberibe-CE',
-    description: 'Inventore sed consequuntur error repudiandae numquam deserunt quisquam repellat libero asperiores earum nam nobis, culpa ratione quam perferendis esse, cupiditate neque quas!',
+    description: 'Inventore sed consequuntur error repudiandae numquam deserunt quisquam repellat libero asperiores earum nam nobis, culpa ratione quam perferendis quas!',
     images: [
       {
         src: '../../../assets/curso-aquaviario/1.jpeg',
