@@ -1,11 +1,31 @@
 import { Component } from '@angular/core';
+import { CardModule } from 'primeng/card';
+import { GalleriaModule } from 'primeng/galleria';
+
+interface IImage {
+  src: string;
+  alt: string;
+}
 
 @Component({
   selector: 'app-actions-events',
-  imports: [],
+  imports: [CardModule, GalleriaModule],
   templateUrl: './actions-events.component.html',
   styleUrl: './actions-events.component.scss',
 })
 export class ActionsEventsComponent {
-
+  protected images: IImage[] = [
+    {
+      src: '../../../assets/surfcasting/1.jpeg',
+      alt: 'Description for Image 1',
+    },
+    {
+      src: '../../../assets/surfcasting/2.jpeg',
+      alt: 'Description for Image 2',
+    },
+    {
+      src: '../../../assets/surfcasting/3.jpeg',
+      alt: 'Description for Image 3',
+    },
+  ];
 }
