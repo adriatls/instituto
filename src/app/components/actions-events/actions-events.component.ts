@@ -8,6 +8,37 @@ import { GalleriaComponent, IGalleria } from '../galleria/galleria.component';
   styleUrl: './actions-events.component.scss',
 })
 export class ActionsEventsComponent {
+  protected torneioMassarandubaEvent: IGalleria = {
+    title: 'Torneio Assentamento Massaranduba',
+    date: '13/11/2023, Beberibe-CE',
+    description: 'Inventore sed consequuntur error repudiandae numquam deserunt quisquam repellat libero asperiores earum nam nobis, culpa ratione quam perferendis esse, cupiditate neque quas!',
+    images: [
+      {
+        src: '../../../assets/torneio-massaranduba/1.png',
+        alt: 'Description for Image 1',
+      },
+      {
+        src: '../../../assets/torneio-massaranduba/2.png',
+        alt: 'Description for Image 2',
+      },
+      {
+        src: '../../../assets/torneio-massaranduba/3.png',
+        alt: 'Description for Image 3',
+      },
+      {
+        src: '../../../assets/torneio-massaranduba/4.png',
+        alt: 'Description for Image 4',
+      },
+      {
+        src: '../../../assets/torneio-massaranduba/5.png',
+        alt: 'Description for Image 5',
+      },
+      {
+        src: '../../../assets/torneio-massaranduba/6.png',
+        alt: 'Description for Image 6',
+      },
+    ]
+  };
   protected encontroAmigosEvent: IGalleria = {
     title: '1° Encontro dos Amigos',
     date: '31/03/2024, Beberibe-CE',
@@ -30,8 +61,7 @@ export class ActionsEventsComponent {
         alt: 'Description for Image 4',
       }
     ]
-  }
-
+  };
   protected arraiaMariaClaraEvent: IGalleria = {
     title: 'Arraiá da Maria Clara',
     date: '06/07/2024, Cascavel-CE',
@@ -69,7 +99,7 @@ export class ActionsEventsComponent {
         alt: 'Description for Image 2',
       },
     ]
-  }
+  };
   protected surfcastingEvent: IGalleria = {
     title: '6° Open Brasil de Surfcasting Pesque e Solte',
     date: '29/08/2025, Beberibe-CE',
@@ -89,7 +119,6 @@ export class ActionsEventsComponent {
       },
     ]
   };
-
   protected cursoAquaviarioEvent: IGalleria = {
     title: 'Curso de Aquaviário',
     date: '09/2025, Beberibe-CE',
@@ -104,5 +133,5 @@ export class ActionsEventsComponent {
         alt: 'Description for Image 2',
       }
     ]
-  }
+  };
 }
