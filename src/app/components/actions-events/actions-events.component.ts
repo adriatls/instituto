@@ -10,7 +10,7 @@ import { GalleriaComponent, IGalleria } from '../galleria/galleria.component';
 export class ActionsEventsComponent {
   protected surfcastingEvent: IGalleria = {
     title: '6° Open Brasil de Surfcasting Pesque e Solte',
-    date: '29/08/2025',
+    date: '29/08/2025, Beberibe-CE',
     description: 'Inventore sed consequuntur error repudiandae numquam deserunt quisquam repellat libero asperiores earum nam nobis, culpa ratione quam perferendis esse, cupiditate neque quas!',
     images: [
       {
@@ -27,4 +27,20 @@ export class ActionsEventsComponent {
       },
     ]
   };
+
+  protected cursoAquaviarioEvent: IGalleria = {
+    title: 'Curso de Aquaviário',
+    date: '09/2025, Beberibe-CE',
+    description: 'Inventore sed consequuntur error repudiandae numquam deserunt quisquam repellat libero asperiores earum nam nobis, culpa ratione quam perferendis esse, cupiditate neque quas!',
+    images: [
+      {
+        src: '../../../assets/curso-aquaviario/1.jpeg',
+        alt: 'Description for Image 1',
+      },
+      {
+        src: '../../../assets/curso-aquaviario/2.jpeg',
+        alt: 'Description for Image 2',
+      }
+    ]
+  }
 }
