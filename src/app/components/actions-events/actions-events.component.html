@@ -1,35 +1,3 @@
 <div class="mb-4 p-8 flex items-center justify-center">
-  <p-card [style]="{ width: '25rem', overflow: 'hidden', padding: '20px' }">
-    <ng-template #header>
-      <p-galleria
-        [value]="images"
-        [showIndicators]="true"
-        [showThumbnails]="false"
-        [changeItemOnIndicatorHover]="true"
-        [containerStyle]="{
-          'max-width': '640px',
-          'max-height': '356px',
-          border: 'none',
-          'border-radius': '0px'
-        }"
-      >
-        <ng-template #item let-item>
-          <img
-            [src]="item.src"
-            [alt]="item.alt"
-            style="height: 300px; width: auto; border-radius: 6px"
-          />
-        </ng-template>
-      </p-galleria>
-    </ng-template>
-    <ng-template #title
-      >6° Open Brasil de Surfcasting Pesque e Solte</ng-template
-    >
-    <ng-template #subtitle> 29/08/2025 </ng-template>
-    <p>
-      Inventore sed consequuntur error repudiandae numquam deserunt quisquam
-      repellat libero asperiores earum nam nobis, culpa ratione quam perferendis
-      esse, cupiditate neque quas!
-    </p>
-  </p-card>
+  <app-galleria [images]="images" />
 </div>

@@ -1,15 +1,9 @@
 import { Component } from '@angular/core';
-import { CardModule } from 'primeng/card';
-import { GalleriaModule } from 'primeng/galleria';
-
-interface IImage {
-  src: string;
-  alt: string;
-}
+import { GalleriaComponent, IImage } from '../galleria/galleria.component';
 
 @Component({
   selector: 'app-actions-events',
-  imports: [CardModule, GalleriaModule],
+  imports: [GalleriaComponent],
   templateUrl: './actions-events.component.html',
   styleUrl: './actions-events.component.scss',
 })
