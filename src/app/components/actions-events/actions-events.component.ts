@@ -8,6 +8,29 @@ import { GalleriaComponent, IGalleria } from '../galleria/galleria.component';
   styleUrl: './actions-events.component.scss',
 })
 export class ActionsEventsComponent {
+  protected encontroAmigosEvent: IGalleria = {
+    title: '1° Encontro dos Amigos',
+    date: '31/03/2024, Beberibe-CE',
+    description: 'Inventore sed consequuntur error repudiandae numquam deserunt quisquam repellat libero asperiores earum nam nobis, culpa ratione quam perferendis esse, cupiditate neque quas!',
+    images: [
+      {
+        src: '../../../assets/encontro-amigos/1.png',
+        alt: 'Description for Image 1',
+      },
+      {
+        src: '../../../assets/encontro-amigos/2.png',
+        alt: 'Description for Image 2',
+      },
+      {
+        src: '../../../assets/encontro-amigos/3.png',
+        alt: 'Description for Image 3',
+      },
+      {
+        src: '../../../assets/encontro-amigos/4.png',
+        alt: 'Description for Image 4',
+      }
+    ]
+  }
 
   protected arraiaMariaClaraEvent: IGalleria = {
     title: 'Arraiá da Maria Clara',
