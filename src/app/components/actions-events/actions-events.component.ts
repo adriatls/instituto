@@ -9,6 +9,29 @@ import { GalleriaComponent, IGalleria } from '../galleria/galleria.component';
 })
 export class ActionsEventsComponent {
 
+  protected arraiaMariaClaraEvent: IGalleria = {
+    title: 'Arraiá da Maria Clara',
+    date: '06/07/2024, Cascavel-CE',
+    description: 'Inventore sed consequuntur error repudiandae numquam deserunt quisquam repellat libero asperiores earum nam nobis, culpa ratione quam perferendis esse, cupiditate neque quas!',
+    images: [
+      {
+        src: '../../../assets/arraia-maria-clara/1.png',
+        alt: 'Description for Image 1',
+      },
+      {
+        src: '../../../assets/arraia-maria-clara/2.png',
+        alt: 'Description for Image 2',
+      },
+      {
+        src: '../../../assets/arraia-maria-clara/3.png',
+        alt: 'Description for Image 3',
+      },
+      {
+        src: '../../../assets/arraia-maria-clara/4.png',
+        alt: 'Description for Image 4',
+      }
+    ]
+  };
   protected mesaSescEvent: IGalleria = {
     title: 'Mesa SESC Brasil',
     date: '04/2025, Beberibe-CE',
