@@ -8,6 +8,22 @@ import { GalleriaComponent, IGalleria } from '../galleria/galleria.component';
   styleUrl: './actions-events.component.scss',
 })
 export class ActionsEventsComponent {
+
+  protected mesaSescEvent: IGalleria = {
+    title: 'Mesa SESC Brasil',
+    date: '04/2025, Beberibe-CE',
+    description: 'Inventore sed consequuntur error repudiandae numquam deserunt quisquam repellat libero asperiores earum nam nobis, culpa ratione quam perferendis esse, cupiditate neque quas!',
+    images: [
+      {
+        src: '../../../assets/mesa-sesc/1.jpeg',
+        alt: 'Description for Image 1',
+      },
+      {
+        src: '../../../assets/mesa-sesc/2.jpeg',
+        alt: 'Description for Image 2',
+      },
+    ]
+  }
   protected surfcastingEvent: IGalleria = {
     title: '6° Open Brasil de Surfcasting Pesque e Solte',
     date: '29/08/2025, Beberibe-CE',
