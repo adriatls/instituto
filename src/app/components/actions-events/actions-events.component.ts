@@ -15,27 +15,27 @@ export class ActionsEventsComponent {
     images: [
       {
         src: '../../../assets/torneio-massaranduba/1.png',
-        alt: 'Description for Image 1',
+        alt: 'Cartaz do Torneio Assentamento Massaranduba promovido pelo Instituto Pescador Abdon Gomes da Silva, com informações sobre torneios de fut7, futmesa, distribuição de uniformes e cestas básicas.',
       },
       {
         src: '../../../assets/torneio-massaranduba/2.png',
-        alt: 'Description for Image 2',
+        alt: 'Texto informativo sobre o Torneio Assentamento Massaranduba, destacando integração comunitária, competições esportivas e ações sociais realizadas na Serra do Félix.',
       },
       {
         src: '../../../assets/torneio-massaranduba/3.png',
-        alt: 'Description for Image 3',
+        alt: 'Equipes de Fut7 e moradores do Assentamento Massaranduba reunidos durante o torneio esportivo promovido pelo Instituto Pescador Abdon Gomes da Silva.',
       },
       {
         src: '../../../assets/torneio-massaranduba/4.png',
-        alt: 'Description for Image 4',
+        alt: 'Jovens da comunidade reunidos em ação de integração social com distribuição de frutas durante o evento no Assentamento Massaranduba.',
       },
       {
         src: '../../../assets/torneio-massaranduba/5.png',
-        alt: 'Description for Image 5',
+        alt: 'Representantes do Instituto Pescador Abdon Gomes da Silva entregando uniforme a atleta durante o evento no Assentamento Massaranduba.',
       },
       {
         src: '../../../assets/torneio-massaranduba/6.png',
-        alt: 'Description for Image 6',
+        alt: 'Representantes do Instituto Pescador Abdon Gomes da Silva entregando uniforme aos atletas do Torneio Assentamento Massaranduba e atletas jogando partida de FutMesa.',
       },
     ]
   };
