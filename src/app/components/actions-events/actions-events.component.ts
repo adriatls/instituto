@@ -107,15 +107,15 @@ export class ActionsEventsComponent {
     images: [
       {
         src: '../../../assets/surfcasting/1.jpeg',
-        alt: 'Description for Image 1',
+        alt: 'Mesa de abertura do 6º Open Brasil de Surfcasting Pesque e Solte 2025, com os colaboradores do evento durante um pronunciamento.',
       },
       {
         src: '../../../assets/surfcasting/2.jpeg',
-        alt: 'Description for Image 2',
+        alt: 'Participantes do evento reunidos para foto em espaço coberto, durante programação do Open Brasil de Surfcasting.',
       },
       {
-        src: '../../../assets/surfcasting/3.jpeg',
-        alt: 'Description for Image 3',
+        src: '../../../assets/surfcasting/4.jpeg',
+        alt: 'Pescador e fiscal do 6º Open Brasil de Surfcasting Pesque e Solte, com peixe capturado durante o evento.',
       },
     ]
   };
