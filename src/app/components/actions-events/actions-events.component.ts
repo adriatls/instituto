@@ -46,19 +46,19 @@ export class ActionsEventsComponent {
     images: [
       {
         src: '../../../assets/encontro-amigos/1.png',
-        alt: 'Description for Image 1',
+        alt: 'Cartaz do 1° Encontro dos Amigos na Praia de Morro Branco promovido pelo Instituto Pescador Abdon Gomes da Silva, informando data de encerramento de inscrição e data da Competição de Embarcações de 5m.',
       },
       {
         src: '../../../assets/encontro-amigos/2.png',
-        alt: 'Description for Image 2',
+        alt: 'Texto informativo sobre o 1º Encontro dos Amigos realizado pelo Instituto Pescador Abdon Gomes da Silva na Praia de Morro Branco, destacando o número de participantes e de embarcações, e o significado cultural do evento.',
       },
       {
         src: '../../../assets/encontro-amigos/3.png',
-        alt: 'Description for Image 3',
+        alt: 'Jangada que competiu na Competição de Embarcações de 5m no 1º Encontro dos Amigos e entrega de prêmio a um competidor.',
       },
       {
         src: '../../../assets/encontro-amigos/4.png',
-        alt: 'Description for Image 4',
+        alt: 'Entrega de premio a competidores da Competição de Embarcações de 5m no 1º Encontro dos Amigos promovido pelo Instituto Pescador Abdon Gomes da Silva.',
       }
     ]
   };
@@ -69,19 +69,19 @@ export class ActionsEventsComponent {
     images: [
       {
         src: '../../../assets/arraia-maria-clara/1.png',
-        alt: 'Description for Image 1',
+        alt: 'Cartaz do Arraiá da Maria Clara na Associação Comunitária do Coqueiro promovido pelo Instituto Pescador Abdon Gomes da Silva, com informações sobre data e local do evento.',
       },
       {
         src: '../../../assets/arraia-maria-clara/2.png',
-        alt: 'Description for Image 2',
+        alt: 'Texto informativo sobre o Arraiá da Maria Clara na Associação Comunitária do Coqueiro, destacando o número de participantes, as atrações e a realização de sorteio de cestas básicas e eletrodomésticos.',
       },
       {
         src: '../../../assets/arraia-maria-clara/3.png',
-        alt: 'Description for Image 3',
+        alt: 'Cestas básicas e eletrodomésticos, como ventilador e sanduicheira, sorteados pelo Instituto Pescador Abdon Gomes da Silva no Arraiá da Maria Clara na Associação Comunitária do Coqueiro.',
       },
       {
         src: '../../../assets/arraia-maria-clara/4.png',
-        alt: 'Description for Image 4',
+        alt: 'Entrega de cesta básica a um jovem durante o Arraiá da Maria Clara e comunidade reunida durante o evento promovido pelo Instituto Pescador Abdon Gomes da Silva.',
       }
     ]
   };
