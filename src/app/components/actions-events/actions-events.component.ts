@@ -126,11 +126,11 @@ export class ActionsEventsComponent {
     images: [
       {
         src: '../../../assets/curso-aquaviario/1.jpeg',
-        alt: 'Description for Image 1',
+        alt: 'Membros da Marinha e alunos pescadores reunidos para o Curso de Aquaviário em auditório.',
       },
       {
         src: '../../../assets/curso-aquaviario/2.jpeg',
-        alt: 'Description for Image 2',
+        alt: 'Mesa de encerramento do Curso de Aquaviário com representantes da Marinha, do CVT, da Prefeitura de Beberibe e do Instituto Pescador Abdon Gomes da Silva.',
       }
     ]
   };
