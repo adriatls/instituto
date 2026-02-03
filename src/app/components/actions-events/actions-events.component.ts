@@ -91,12 +91,16 @@ export class ActionsEventsComponent {
     description: 'Distribuímos 150 cestas básicas para pescadores, marisqueiros e agricultores familiar de Beberibe em parceria com o SESC pelo programa Mesa Brasil.',
     images: [
       {
-        src: '../../../assets/mesa-sesc/1.jpeg',
-        alt: 'Description for Image 1',
+        src: '../../../assets/mesa-sesc/4.jpeg',
+        alt: 'Represente do Instituto Pescador Abdon Gomes da Silva entregando cesta básica a um membro da comunidade durante a distribuição de cestas básicas.',
       },
       {
         src: '../../../assets/mesa-sesc/2.jpeg',
-        alt: 'Description for Image 2',
+        alt: 'Beneficiado da Mesa SESC Brasil recebendo cesta básica em seu domicílio.',
+      },
+      {
+        src: '../../../assets/mesa-sesc/3.jpeg',
+        alt: 'Beneficiados do Mesa SESC Brasil retiram cestas básicas durante a ação de distribuição.',
       },
     ]
   };
