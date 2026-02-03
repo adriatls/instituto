@@ -88,7 +88,7 @@ export class ActionsEventsComponent {
   protected mesaSescEvent: IGalleria = {
     title: 'Mesa SESC Brasil',
     date: '04/2025, Beberibe-CE',
-    description: 'Inventore sed consequuntur error repudiandae numquam deserunt quisquam repellat libero asperiores earum nam nobis, culpa ratione quam perferendis quas!',
+    description: 'Distribuímos 150 cestas básicas para pescadores, marisqueiros e agricultores familiar de Beberibe em parceria com o SESC pelo programa Mesa Brasil.',
     images: [
       {
         src: '../../../assets/mesa-sesc/1.jpeg',
@@ -103,7 +103,7 @@ export class ActionsEventsComponent {
   protected surfcastingEvent: IGalleria = {
     title: '6° Open de Surfcasting Pesque e Solte',
     date: '29/08/2025, Beberibe-CE',
-    description: 'Inventore sed consequuntur error repudiandae numquam deserunt quisquam repellat libero asperiores earum nam nobis quas!',
+    description: 'Mediamos a participação de pescadores da Praia de Morro Branco na avaliação dos peixes do 6° Open de Surfcasting Pesque e Solte.',
     images: [
       {
         src: '../../../assets/surfcasting/1.jpeg',
@@ -122,7 +122,7 @@ export class ActionsEventsComponent {
   protected cursoAquaviarioEvent: IGalleria = {
     title: 'Curso de Aquaviário',
     date: '09/2025, Beberibe-CE',
-    description: 'Inventore sed consequuntur error repudiandae numquam deserunt quisquam repellat libero asperiores earum nam nobis, culpa ratione quam perferendis quas!',
+    description: 'Realizamos o Curso de Aquaviário com a Marinha, CVT, Secretaria de Turismo CE e Prefeitura de Beberibe, para capacitar os jangadeiros pescadores em navegação e segurança marítima.',
     images: [
       {
         src: '../../../assets/curso-aquaviario/1.jpeg',
