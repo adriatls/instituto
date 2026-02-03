@@ -138,4 +138,23 @@ export class ActionsEventsComponent {
       }
     ]
   };
+  protected duathlonAracatiEvent: IGalleria = {
+    title: '1° Duathlon Aquático de Aracati',
+    date: '07/12/2025, Aracati-CE',
+    description: 'Com a nossa parceria, foi realizada a primeira competição de Duathlon Aquático de Aracati, que contou com a participação de 400 atletas, sendo 150 deles de projeto sociais.',
+    images: [
+      {
+        src: '../../../assets/duathlon-aracati/1.jpeg',
+        alt: 'Cartaz da parceria do Instituto Pescador Abdon Gomes da Silva para a realização do 1° Duathlon Aquático de Aracati.',
+      },
+      {
+        src: '../../../assets/duathlon-aracati/2.jpeg',
+        alt: 'Pódio com as vencedoras da categoria feminina Juvenil do 1° Duathlon Aquático de Aracati.',
+      },
+      {
+        src: '../../../assets/duathlon-aracati/3.jpeg',
+        alt: 'Pódio com os vencedores da categoria Adulta Geral do 1° Duathlon Aquático de Aracati.',
+      },
+    ]
+  }
 }
