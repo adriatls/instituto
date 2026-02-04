@@ -39,6 +39,11 @@ export class PartnerComponent {
 
   protected partnerImages: IPartnerImage[] = [
     {
+      src: '../../../assets/energy.jpeg',
+      alt: 'Logo do parceiro Energy Projet',
+      style: '',
+    },
+    {
       src: '../../../assets/triathlon.png',
       alt: 'Logo da Escolinha de Triathlon',
       style: '',
