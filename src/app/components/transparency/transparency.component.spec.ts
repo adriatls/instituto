@@ -8,9 +8,8 @@ describe('TransparencyComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [TransparencyComponent]
-    })
-    .compileComponents();
+      imports: [TransparencyComponent],
+    }).compileComponents();
 
     fixture = TestBed.createComponent(TransparencyComponent);
     component = fixture.componentInstance;

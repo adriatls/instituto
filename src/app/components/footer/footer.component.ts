@@ -6,7 +6,7 @@ import { DividerModule } from 'primeng/divider';
   selector: 'app-footer',
   imports: [DividerModule, ButtonModule],
   templateUrl: './footer.component.html',
-  styleUrl: './footer.component.scss'
+  styleUrl: './footer.component.scss',
 })
 export class FooterComponent {
   public scrollTo(id: string) {

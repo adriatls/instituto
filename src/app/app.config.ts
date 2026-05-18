@@ -14,7 +14,7 @@ const appConfigTheme: ApplicationConfig = {
             name: 'primeng',
             order: 'theme, base, primeng',
           },
-          darkModeSelector: ".dark",
+          darkModeSelector: '.dark',
         },
       },
     }),

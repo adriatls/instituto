@@ -1,16 +1,20 @@
 <header>
   @if (headerItens) {
-  <p-menubar [model]="headerItens" breakpoint="710px" [style]="{border: 'none'}">
-    <ng-template #start>
-      <img
-        src="../assets/logo_completa_cut.png"
-        alt="Logo"
-        style="width: 200px"
-      />
-    </ng-template>
-    <ng-template #menuicon>
-      <i class="pi pi-bars" style="font-size: 1.5rem"></i>
-    </ng-template>
-  </p-menubar>
+    <p-menubar
+      [model]="headerItens"
+      breakpoint="710px"
+      [style]="{ border: 'none' }"
+    >
+      <ng-template #start>
+        <img
+          src="../assets/logo_completa_cut.png"
+          alt="Logo"
+          style="width: 200px"
+        />
+      </ng-template>
+      <ng-template #menuicon>
+        <i class="pi pi-bars" style="font-size: 1.5rem"></i>
+      </ng-template>
+    </p-menubar>
   }
 </header>

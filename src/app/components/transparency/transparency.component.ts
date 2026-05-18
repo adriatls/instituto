@@ -8,7 +8,6 @@ import { ButtonModule } from 'primeng/button';
   styleUrl: './transparency.component.scss',
 })
 export class TransparencyComponent {
-
   protected openDocument(documentName: string) {
     window.open(`assets/${documentName}.pdf`, '_blank');
   }

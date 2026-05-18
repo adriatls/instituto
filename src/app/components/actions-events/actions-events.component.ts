@@ -11,7 +11,8 @@ export class ActionsEventsComponent {
   protected torneioMassarandubaEvent: IGalleria = {
     title: 'Torneio Assentamento Massaranduba',
     date: '13/11/2023, Beberibe-CE',
-    description: 'Realizamos o Torneio de Fut7 e de Futmesa no assentamento da Serra do Félix afim de promover lazer, esporte e inclusão social na comunidade.',
+    description:
+      'Realizamos o Torneio de Fut7 e de Futmesa no assentamento da Serra do Félix afim de promover lazer, esporte e inclusão social na comunidade.',
     images: [
       {
         src: '../../../assets/torneio-massaranduba/1.png',
@@ -37,12 +38,13 @@ export class ActionsEventsComponent {
         src: '../../../assets/torneio-massaranduba/6.png',
         alt: 'Representantes do Instituto Pescador Abdon Gomes da Silva entregando uniforme aos atletas do Torneio Assentamento Massaranduba e atletas jogando partida de FutMesa.',
       },
-    ]
+    ],
   };
   protected encontroAmigosEvent: IGalleria = {
     title: '1° Encontro dos Amigos',
     date: '31/03/2024, Beberibe-CE',
-    description: 'Realizamos a Competição de Embarcações de 5m na Praia de Morro Branco, uma corrida de jangada, festejando a tradição náutica local com a comunidade.',
+    description:
+      'Realizamos a Competição de Embarcações de 5m na Praia de Morro Branco, uma corrida de jangada, festejando a tradição náutica local com a comunidade.',
     images: [
       {
         src: '../../../assets/encontro-amigos/1.png',
@@ -59,13 +61,14 @@ export class ActionsEventsComponent {
       {
         src: '../../../assets/encontro-amigos/4.png',
         alt: 'Entrega de premio a competidores da Competição de Embarcações de 5m no 1º Encontro dos Amigos promovido pelo Instituto Pescador Abdon Gomes da Silva.',
-      }
-    ]
+      },
+    ],
   };
   protected arraiaMariaClaraEvent: IGalleria = {
     title: 'Arraiá da Maria Clara',
     date: '06/07/2024, Cascavel-CE',
-    description: 'Realizamos um Festival Junino na Associação Comunitária do Coqueiro com sorteio de cestas básicas e eletrodomésticos, além de celebrar a cultura nordestina.',
+    description:
+      'Realizamos um Festival Junino na Associação Comunitária do Coqueiro com sorteio de cestas básicas e eletrodomésticos, além de celebrar a cultura nordestina.',
     images: [
       {
         src: '../../../assets/arraia-maria-clara/1.png',
@@ -82,13 +85,14 @@ export class ActionsEventsComponent {
       {
         src: '../../../assets/arraia-maria-clara/4.png',
         alt: 'Entrega de cesta básica a um jovem durante o Arraiá da Maria Clara e comunidade reunida durante o evento promovido pelo Instituto Pescador Abdon Gomes da Silva.',
-      }
-    ]
+      },
+    ],
   };
   protected mesaSescEvent: IGalleria = {
     title: 'Mesa SESC Brasil',
     date: '04/2025, Beberibe-CE',
-    description: 'Distribuímos 150 cestas básicas para pescadores, marisqueiros e agricultores familiar de Beberibe em parceria com o SESC pelo programa Mesa Brasil.',
+    description:
+      'Distribuímos 150 cestas básicas para pescadores, marisqueiros e agricultores familiar de Beberibe em parceria com o SESC pelo programa Mesa Brasil.',
     images: [
       {
         src: '../../../assets/mesa-sesc/4.jpeg',
@@ -102,12 +106,13 @@ export class ActionsEventsComponent {
         src: '../../../assets/mesa-sesc/3.jpeg',
         alt: 'Beneficiados do Mesa SESC Brasil retiram cestas básicas durante a ação de distribuição.',
       },
-    ]
+    ],
   };
   protected surfcastingEvent: IGalleria = {
     title: '6° Open de Surfcasting Pesque e Solte',
     date: '29/08/2025, Beberibe-CE',
-    description: 'Mediamos a participação de pescadores da Praia de Morro Branco na avaliação dos peixes do 6° Open de Surfcasting Pesque e Solte.',
+    description:
+      'Mediamos a participação de pescadores da Praia de Morro Branco na avaliação dos peixes do 6° Open de Surfcasting Pesque e Solte.',
     images: [
       {
         src: '../../../assets/surfcasting/1.jpeg',
@@ -121,12 +126,13 @@ export class ActionsEventsComponent {
         src: '../../../assets/surfcasting/4.jpeg',
         alt: 'Pescador e fiscal do 6º Open Brasil de Surfcasting Pesque e Solte, com peixe capturado durante o evento.',
       },
-    ]
+    ],
   };
   protected cursoAquaviarioEvent: IGalleria = {
     title: 'Curso de Aquaviário',
     date: '09/2025, Beberibe-CE',
-    description: 'Realizamos o Curso de Aquaviário com a Marinha, CVT, Secretaria de Turismo CE e Prefeitura de Beberibe, para capacitar os jangadeiros pescadores em navegação e segurança marítima.',
+    description:
+      'Realizamos o Curso de Aquaviário com a Marinha, CVT, Secretaria de Turismo CE e Prefeitura de Beberibe, para capacitar os jangadeiros pescadores em navegação e segurança marítima.',
     images: [
       {
         src: '../../../assets/curso-aquaviario/1.jpeg',
@@ -135,13 +141,14 @@ export class ActionsEventsComponent {
       {
         src: '../../../assets/curso-aquaviario/2.jpeg',
         alt: 'Mesa de encerramento do Curso de Aquaviário com representantes da Marinha, do CVT, da Prefeitura de Beberibe e do Instituto Pescador Abdon Gomes da Silva.',
-      }
-    ]
+      },
+    ],
   };
   protected duathlonAracatiEvent: IGalleria = {
     title: '1° Duathlon Aquático de Aracati',
     date: '07/12/2025, Aracati-CE',
-    description: 'Com a nossa parceria, foi realizada a primeira competição de Duathlon Aquático de Aracati, que contou com a participação de 400 atletas, sendo 150 deles de projeto sociais.',
+    description:
+      'Com a nossa parceria, foi realizada a primeira competição de Duathlon Aquático de Aracati, que contou com a participação de 400 atletas, sendo 150 deles de projeto sociais.',
     images: [
       {
         src: '../../../assets/duathlon-aracati/1.jpeg',
@@ -155,6 +162,6 @@ export class ActionsEventsComponent {
         src: '../../../assets/duathlon-aracati/3.jpeg',
         alt: 'Pódio com os vencedores da categoria Adulta Geral do 1° Duathlon Aquático de Aracati.',
       },
-    ]
-  }
+    ],
+  };
 }

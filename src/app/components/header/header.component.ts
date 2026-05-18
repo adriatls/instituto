@@ -25,7 +25,7 @@ export class HeaderComponent {
       },
       {
         label: 'Como doar',
-        command: () => this.scrollTo('doar'), 
+        command: () => this.scrollTo('doar'),
         style: { fontSize: '1.50rem' },
       },
       {

@@ -4,8 +4,6 @@ import { Component } from '@angular/core';
   selector: 'app-donate',
   imports: [],
   templateUrl: './donate.component.html',
-  styleUrl: './donate.component.scss'
+  styleUrl: './donate.component.scss',
 })
-export class DonateComponent {
-
-}
+export class DonateComponent {}
